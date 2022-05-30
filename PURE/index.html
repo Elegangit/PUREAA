@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<title>PUREbyAniqa</title>
+		<meta charset="UTF-8">
+			 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+			 <meta http-equiv="X-UA-Compatible" content="ie=edge">
+			 <link href="src/styles.css">
+			 <link href="src/TandPforPURE.html">
+			 <title>PURE.html</title>
+		 </head>
+		 <body>
+		 <h1> 
+		 <strong>
+		 <style>
+			h1 {color: #885df1; text-align: center;
+				font-size:48px; font-weight:100; background: linear-gradient(110.5deg, rgba(248, 196, 249, 0.66) 22.8%, rgba(253, 122, 4, 0.15) 64.6%); text-shadow: 5px 5px 10px rgba(229, 16, 245, 0.4);
+	 color: #e510f5; }
+		 </style>
+		 <br>PURE - Publish Ur Research / E-Book</br>
+		 <hr>
+	 
+	 <p>
+		<div>Password protect your work ✔,</div>
+		<div>Share with the World 🌎🌏🌍,</div>
+		<div>Retain your Copyrights and Publish 🖨 </div>
+			 <style>
+				p {text-align= centered; margin: 0 auto; border-radius: 50px;text-decoration: Bold; font-size: 28px; color: #272044; line-height:12px; background: linear-gradient(110.5deg, rgba(248, 196, 249, 0.66) 22.8%, rgba(253, 122, 4, 0.15) 64.6%);}
+			 </style>
+			 </strong>
+			 </p>
+		 </h1>
+		<strong>
+			<style>
+			button {color: white; 
+			 background:blueviolet;
+			 padding: 15px 20px;
+			 display: block;
+			 margin: 0 auto;
+			 border: 1px solid bluviolet;
+			 border-radius: 30px;
+			 transition: 200ms ease-in-out;
+			 text-align: center;
+			}
+	 
+			button:hover {color: blueviolet; background: rgb(228, 6, 191); cursor: pointer;
+	 }
+	 </style>
+			</strong>
+	 
+			<p> <span class="Eligibility">
+				<strong>
+				<button> 
+			Eligibility Check 
+			</button>
+			</strong></span>
+	 <style> 
+			p {text-align: center; font-size: 40px; 
+	 padding: 15px 20px;
+		 margin: 0 auto;
+		 justify-content: center;
+		 border-radius: 100%;
+		 background color: #f6f2fe; rgb(215,255,253); 
+		 display: block;
+		 margin-block-start:0px;
+			 margin-block-end: 0px;
+			 margin-inline-start: 0px;
+				margin-inline-end: 0px; box-sizing: border-box; max-width: 300px; margin: 0 auto; } 
+				button { background: transparent; display: block; color: #885df1; font-size:18px; margin: 0 auto 30px auto; padding: 20px 30px; border:1px solid #885df1; border-radius: 30px; border-shadow: 5px 5px 10px rgba(0,0,0,0.3); text-align: center;}
+			<button> {display:block; margin: 0 auto; width:200px; margin: 50px auto 0 auto; padding: 20px; border: 10px solid rgb(185, 196, 195); border-radius: 100%; text-align: center;}
+		 </button>
+			</style>
+			</strong>
+			 </p>
+		 
+			 <ul>
+			 <style>
+			 .coders {
+				 color: magenta; 
+				 text-align:left;
+				 font-size: 30px;
+				 background:lightpink;
+			 }
+			 .courses {
+				 color: palevioletred;
+				 text-align:Center;
+				 font-size: 30px;
+				 background:purple;
+			 }
+			 .stories {
+				 color: purple;
+				 text-align:Right;
+				 font-size: 30px;
+				 background:magenta;
+			 }
+				 .code {text-align: center;color:blue; font-size:20px; text-align:center;justify-content: center;}
+				 .loginButton { background: transparent; display: block; color: #885df1; font-size:18px; margin: 0 auto 30px auto; padding: 20px 30px; border:1px solid #885df1; border-radius: 30px; border-shadow: 5px 5px 10px rgba(0,0,0,0.3);}
+	 </style>
+	 </ul>
+	 <script>
+		 function Eligibility() { let name =prompt("What's your name?");
+			 let age =prompt("How old are you?"); 
+			 if(age <= 18)  {alert ("Sorry," + name + "You cannot join PURE 😢" ); }  else {alert ("Hi," + name + "Welcome to PURE! 😊 Please provide your username and password");}
+		 }
+		 let applyButton = document.querySelector("button");
+		 applyButton.addEventListener("click", Eligibility);
+		 </script>
+	 
+	 <button onclick="document.getElementById('id01').style.display='block'">Login</button>
+	 
+	 <div id="id01" class="modal">
+		 <span onclick="document.getElementById('id01').style.display='none'"
+	 class="close" title="Close Modal">&times;</span>
+	 
+		 
+		 <form class="modal-content animate" action="/action_page.php">
+			 <div class="imgcontainer">
+				 <img src="img_avatar2.png" alt="Avatar" class="avatar">
+			 </div>
+	 
+			 <div class="container">
+				 <label for="uname"><b>Username</b></label>
+				 <input type="text" placeholder="Enter Username" name="uname" required>
+	 
+				 <label for="psw"><b>Password</b></label>
+				 <input type="password" placeholder="Enter Password" name="psw" required>
+	 
+				 <button type="submit">Login</button>
+				 <label>
+					 <input type="checkbox" checked="checked" name="remember"> Remember me
+				 </label>
+			 </div>
+	 
+			 <div class="container" style="background-color: pink">
+				 <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+				 <span class="psw">Forgot <a href="#">password?</a></span>
+			 </div>
+		 </form>
+	 </div>
+	 
+	 <style>.modal {
+		 display: none; /* Hidden by default */
+		 position: fixed; /* Stay in place */
+		 z-index: 1; /* Sit on top */
+		 left: 0;
+		 top: 0;
+		 width: 100%; /* Full width */
+		 height: 100%; /* Full height */
+		 overflow: auto; /* Enable scroll if needed */
+		 background-color: rgb(0,0,0); /* Fallback color */
+		 background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+		 padding-top: 60px;
+	 }
+	 
+	 /* Modal Content/Box */
+	 .modal-content {
+		 background-color: #fefefe;
+		 margin: 5px auto; /* 15% from the top and centered */
+		 border: 1px solid #888;
+		 width: 80%; /* Could be more or less, depending on screen size */
+	 }
+	 
+	 /* The Close Button */
+	 .close {
+		 /* Position it in the top right corner outside of the modal */
+		 position: absolute;
+		 right: 25px;
+		 top: 0;
+		 color: #000;
+		 font-size: 35px;
+		 font-weight: bold;
+	 }
+	 
+	 /* Close button on hover */
+	 .close:hover,
+	 .close:focus {
+		 color: red;
+		 cursor: pointer;
+	 }
+	 
+	 /* Add Zoom Animation */
+	 .animate {
+		 -webkit-animation: animatezoom 0.6s;
+		 animation: animatezoom 0.6s
+	 }
+	 
+	 @-webkit-keyframes animatezoom {
+		 from {-webkit-transform: scale(0)}
+		 to {-webkit-transform: scale(1)}
+	 }
+	 
+	 @keyframes animatezoom {
+		 from {transform: scale(0)}
+		 to {transform: scale(1)}
+	 }</style>
+	 <script>
+	 // Get the modal
+	 var modal = document.getElementById('id01');
+	 
+	 // When the user clicks anywhere outside of the modal, close it
+	 window.onclick = function(event) {
+		 if (event.target == modal) {
+			 modal.style.display = "none";
+		 }
+	 }
+	 </script>
+	 
+	 <button onclick="document.getElementById('id02').style.display='block'">Sign Up</button>
+	 
+	 <!-- The Modal (contains the Sign Up form) -->
+	 <div id="id02" class="modal">
+		 <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">.</span>
+		 <form class="modal-content" action="/action_page.php">
+			 <div class="container">
+				 <h1>Sign Up</h1>
+				 <p>Please fill in this form to create an account.</p>
+				 <hr>
+				 <label for="email"><b>Email</b></label>
+				 <input type="text" placeholder="Enter Email" name="email" required>
+	 
+				 <label for="psw"><b>Password</b></label>
+				 <input type="password" placeholder="Enter Password" name="psw" required>
+	 
+				 <label for="psw-repeat"><b>Repeat Password</b></label>
+				 <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+	 
+				 <label>
+					 <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+				 </label>
+	 
+				 <p>By creating an account you agree to our <a href="src/TandPforPURE.html">Terms & Privacy</a>.</p>
+	 
+				 <div class="clearfix">
+					 <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+					 <button type="submit" class="signup">Sign Up</button>
+				 </div>
+			 </div>
+		 </form>
+	 </div>
+	 
+	 <br />
+	 <script>
+	 <form action="action_page.php" style="border:1px solid #ccc">
+		 <div class="container">
+			 <h1>Sign Up</h1>
+			 <p>Please fill in this form to create an account.</p>
+			 <hr>
+	 
+			 <label for="email"><b>Email</b></label>
+			 <input type="text" placeholder="Enter Email" name="email" required>
+	 
+			 <label for="psw"><b>Password</b></label>
+			 <input type="password" placeholder="Enter Password" name="psw" required>
+	 
+			 <label for="psw-repeat"><b>Repeat Password</b></label>
+			 <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+	 
+			 <label>
+				 <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+			 </label>
+	 
+			 <p>By creating an account you agree to our <a src="src/TandPforPURE.html">Terms & Privacy</a> </p>
+	 
+			 <div class="clearfix">
+				 <button type="button" class="cancelbtn">Cancel</button>
+				 <button type="submit" class="signupbtn">Sign Up</button>
+			 </div>
+		 </div>
+	 </form>
+	 </script>
+	 <style>* {box-sizing: border-box}
+	 
+	 /* Full-width input fields */
+		 input[type=text], input[type=password] {
+		 width: 100%;
+		 padding: 15px;
+		 margin: 5px 0 22px 0;
+		 display: inline-block;
+		 border: none;
+		 background: pink;
+	 }
+	 
+	 input[type=text]:focus, input[type=password]:focus {
+		 background-color: pink;
+		 outline: none;
+	 }
+	 
+	 hr {
+		 border: 1px solid #f1f1f1;
+		 margin-bottom: 25px;
+	 }
+	 
+	 /* Set a style for all buttons */
+	 button {
+		 background-color: #04AA6D;
+		 color: white;
+		 padding: 14px 20px;
+		 margin: 8px 0;
+		 border: none;
+		 cursor: pointer;
+		 width: 100%;
+		 opacity: 0.9;
+		 border-radius: 12px;
+	 }
+	 
+	 button:hover {
+		 opacity:1;
+	 }
+	 
+	 /* Extra styles for the cancel button */
+	 .cancelbtn {
+		 padding: 14px 20px;
+		 background-color: #f44336;
+	 }
+	 
+	 /* Float cancel and signup buttons and add an equal width */
+	 .cancelbtn, .signupbtn {
+		 float: left;
+		 width: 50%;
+	 }
+	 
+	 /* Add padding to container elements */
+	 .container {
+		 padding: 16px;
+	 }
+	 
+	 /* Clear floats */
+	 .clearfix::after {
+		 content: "";
+		 clear: both;
+		 display: table;
+	 }
+	 
+	 /* Change styles for cancel button and signup button on extra small screens */
+	 @media screen and (max-width: 300px) {
+		 .cancelbtn, .signupbtn {
+			 width: 100%;
+		 }
+	 }
+	 * {box-sizing: border-box}
+	 /* Full-width input fields */
+		 input[type=text], input[type=password] {
+		 width: 100%;
+		 padding: 15px;
+		 margin: 5px 0 22px 0;
+		 display: inline-block;
+		 border: none;
+		 background: #f1f1f1;
+	 }
+	 
+	 /* Add a background color when the inputs get focus */
+	 input[type=text]:focus, input[type=password]:focus {
+		 background-color: pink;
+		 outline: none;
+	 }
+	 
+	 /* Set a style for all buttons */
+	 button {
+		 background-color: purple;
+		 color: white;
+		 padding: 14px 20px;
+		 margin: 8px 0;
+		 border: none;
+		 cursor: pointer;
+		 width: 100%;
+		 opacity: 0.9;
+		 border-radius: 12px;
+	 }
+	 
+	 button:hover {
+		 opacity:1;
+	 }
+	 
+	 /* Extra styles for the cancel button */
+	 .cancelbtn {
+		 padding: 14px 20px;
+		 background-color: #f44336;
+	 }
+	 
+	 /* Float cancel and signup buttons and add an equal width */
+	 .cancelbtn, .signupbtn {
+		 float: left;
+		 width: 50%;
+	 }
+	 
+	 /* Add padding to container elements */
+	 .container {
+		 padding: 16px;
+	 }
+	 
+	 /* The Modal (background) */
+	 .modal {
+		 display: none; /* Hidden by default */
+		 position: fixed; /* Stay in place */
+		 z-index: 1; /* Sit on top */
+		 left: 0;
+		 top: 0;
+		 width: 100%; /* Full width */
+		 height: 100%; /* Full height */
+		 overflow: auto; /* Enable scroll if needed */
+		 background-color: #474e5d;
+		 padding-top: 50px;
+	 }
+	 
+	 /* Modal Content/Box */
+	 .modal-content {
+		 background-color: #fefefe;
+		 margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+		 border: 1px solid #888;
+		 width: 80%; /* Could be more or less, depending on screen size */
+	 }
+	 
+	 /* Style the horizontal ruler */
+	 hr {
+		 border: 1px solid #f1f1f1;
+		 margin-bottom: 25px;
+	 }
+	 
+	 /* The Close Button (x) */
+	 .close {
+		 position: absolute;
+		 right: 35px;
+		 top: 15px;
+		 font-size: 40px;
+		 font-weight: bold;
+		 color: #f1f1f1;
+	 }
+	 
+	 .close:hover,
+	 .close:focus {
+		 color: #f44336;
+		 cursor: pointer;
+	 }
+	 
+	 /* Clear floats */
+	 .clearfix::after {
+		 content: "";
+		 clear: both;
+		 display: table;
+	 }
+	 
+	 /* Change styles for cancel button and signup button on extra small screens */
+	 @media screen and (max-width: 300px) {
+		 .cancelbtn, .signupbtn {
+			 width: 100%;
+		 }
+	 }
+	 </style>
+	 <script>
+	 // Get the modal
+	 var modal = document.getElementById('id02');
+	 
+	 // When the user clicks anywhere outside of the modal, close it
+	 window.onclick = function(event) {
+			 if (event.target == modal) {
+					 modal.style.display = "none";
+			 }
+	 }
+	 </script>
+	 <br>
+	 <li class="coders">
+	 <a href="https://www.gatekeeperpress.com/" target="_blank" class="coders"> Research / Journals / Blogs 📓<text-font: 12px;>
+	 </text-font:></a>
+	 </li>
+	 </br>
+	 
+	 <br>
+	 <li>
+	 <li class="courses">
+	 <a href="https://www.coursera.org/" target="_blank" class="courses">Courses / E-Books / Certifications 📚 <text-font: 12px;>
+		 </text-font:></a>
+		</li>
+	 </br>
+	 
+	 <br>
+	 <li class="stories">
+	 <a href="https://www.grammarly.com/" target="_blank" class="stories"> Success via Best Editor for Publication 📇 <text-font: 12px;>
+	 </text-font:></a>
+	 </li>
+	 <hr>
+	 </br>
+	 
+	 <h2>
+		 <strong>Login to Write, Save, and Share your Ideas </strong>
+		 <p> 
+		 <div>Please take a few minutes to complete the following survey </div>
+		 <div>because your opinion matters as much as your writing and publications </div>  
+		 <div>We appreciate your contribution and <em><a href="https://www.surveymonkey.com/r/P88MSRH">Valuable Feedback, Thanks </em></a></div> 
+		 <style> 
+			 h2 {color: #272044; background-color: pink; margin: 0 auto; text-align: center;font-size:medium; font-weight:700; color:rgb(153, 27, 96); background:rgb(247, 178, 235); background-size: 50%; line-height:medium; box-shadow:#272044; border:darkmagenta; border-radius: 80%; transition:cubic-bezier(0.075, 0.82, 0.165, 1); border-width: 100px; padding:25px 35px; display: contents; justify-content: center;font-size: 30px; margin: 0 auto; text-size-adjust: 20px;list-style:none;}
+		 </style> </p></h2>
+	 <hr>
+	 <p> Adults can Always learn and write, but busy work life balance may hinder their learning and writing, both crucial steps to share innovative ideas. If you are on one such page, PURE website is purely designed for the working professionals like you. I graduated a while ago and learned via some amazing online certifications. My goal is to encourage adults to continue learning and writing through the useful resources shared on this website, and to especially believe in yourself by continuing to learn and write, even after you graduate from school. If you are interested in learning about programming languages, it's never too late. Please check out the following free coding SheCodes workshop because I joined it just a week ago and coded this website for amazing writers and learners like you. Thank you! </p>
+				 <style> p {line-height: 1; font-size: small; font-weight:300; display:contents; padding: 25px 30px; justify-content: space-evenly; list-style:none; text-align: center;} </style>
+	 </hr>
+	 
+			 <h5> 
+		 <li class="code">
+		<a href="https://www.shecodes.io/free-class" target="_blank" class="code"> For Free online coding course, go to <em>SheCodes Workshops</em> </a></li>
+			 <p> 
+	 <style>
+				 p{background: linear-gradient(rgb(222, 168, 248) 0%, rgb(168, 222, 248) 21.8%, rgb(189, 250, 205) 35.6%, rgb(243, 250, 189) 52.9%, rgb(250, 227, 189) 66.8%, rgb(248, 172, 172) 90%, rgb(254, 211, 252) 99.7%);font-size:40px;text-align:center;margin: 0 auto; }
+					 h5 { display: inline; color: blue rgba(20, 3, 82, 0.295); font-size: 20px; margin: 0 auto; text-size-adjust: 20px; display: inline;list-style:none;}
+			 </style>
+			 </p>
+	 </h5>
+	 
+	 <footer> Coded by Aniqa Afzal on 02-22-2022 via SheCodes <style> footer{position:center; font-size: 20px;font-weight:lighter; text-align: center; margin: 0 auto; justify-content:center;display:inline; line-height: medium; background-color: rgb(248, 240, 248);text-indent: 0 auto;}></style> </footer>
+	 
+	 <img src="https://www.shecodes.io/assets/emojis/dark%20blue%20hair-5f04f58794c1ace95d434be56ff4a09729f2d00c0312997da807fa64c6bc51d9.gif"> 
+		 <style> img { display: block; text-align: center; width:400px; size: 400px; margin: 50px auto 0 auto; padding:25px 40px;background: linear-gradient(110.5deg, rgba(248, 196, 249, 0.66) 22.8%, rgba(253, 122, 4, 0.15) 64.6%);box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);filter:  brightness(115%) contrast(91%) saturate(107%); border-radius: 10px 100px 5px 100px; background-color: pink;} </style>
+		 </style></p>
+	<script src="src/index.js">
+	</script>
+</body>
+</html>
